@@ -107,9 +107,10 @@ streamed to an assertion, it will be translated to UTF-8 when printed.
 ## Basic Assertions ##
 
 These assertions do basic true/false condition testing.
-| **Fatal assertion** | **Nonfatal assertion** | **Verifies** |
-|:--------------------|:-----------------------|:-------------|
-| `ASSERT_TRUE(`_condition_`)`;  | `EXPECT_TRUE(`_condition_`)`;   | _condition_ is true |
+
+|     **Fatal assertion**        |     **Nonfatal assertion**      |    **Verifies**      |
+|:-------------------------------|:--------------------------------|:---------------------|
+| `ASSERT_TRUE(`_condition_`)`;  | `EXPECT_TRUE(`_condition_`)`;   | _condition_ is true  |
 | `ASSERT_FALSE(`_condition_`)`; | `EXPECT_FALSE(`_condition_`)`;  | _condition_ is false |
 
 Remember, when they fail, `ASSERT_*` yields a fatal failure and
